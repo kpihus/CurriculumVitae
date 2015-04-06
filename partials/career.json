@@ -1,0 +1,67 @@
+[
+  {
+    "start":"2000",
+    "end":"2002",
+    "company":"Provel OÜ",
+    "position":"Computer technician",
+    "desc":"Rergular computer maintenance. Installation of new hardware and software (workstations and servers). Building computer newtorks",
+    "tags":["Hardware","Windows","Linux","Firewall","HTTP","SMTP","TCP/IP"]
+  },
+  {
+    "start":"2002",
+    "end":"2004",
+    "company":"Privador AS",
+    "position":"Support engineer",
+    "desc":"Technical first level support of all Privador products (Privador Barricade, Privador Cryptowall, etc)",
+    "tags":["Firewall","VPN","Linux","TCP/IP","Communication"]
+  },
+  {
+    "start":"2004",
+    "end":"2006",
+    "company":"IT Grupp AS",
+    "position":"Product manager",
+    "desc":"Head of Privador security products. Organizing product development and technical support",
+    "tags":["Firewall","VPN","Linux","TCP/IP"]
+  },
+  {
+    "start":"2006",
+    "end":"____",
+    "company":"Tallinna Arvutikool OÜ",
+    "position":"MS Excel VBA lector",
+    "desc":"Lecturer for Microsoft Excel Macro programming trainings",
+    "tags":["VBA","Excel","Teaching"]
+  },
+  {
+    "start":"2006",
+    "end":"2008",
+    "company":"Bait Partner OÜ",
+    "position":"WatchGuard Product manager",
+    "desc":"Sales, installation and support of WatchGuard threat management products.",
+    "tags":["Sales","Watchguard","Firewall","VPN","TCP/IP"]
+  },
+  {
+    "start":"2008",
+    "end":"2013",
+    "company":"Knowit Estonia OÜ",
+    "position":"Software Consultant",
+    "desc":"Support and development of various software products. Mostly Software AG webMethods integration system",
+    "tags":["webMethods","Java","Sysop"]
+  },
+  {
+    "start":"2010",
+    "end":"____",
+    "company":"IteGard OÜ",
+    "position":"Software Developer",
+    "desc":"Development of web based solutions in PHP. From simple web pages to more complex CRM and warehouse systems",
+    "tags":["PHP","JavaScript","jQuery","Knockout","Angular","MySQL","HTML","CSS","JSON","Firewall","VPN","Sales","Sysop"]
+  },
+  {
+    "start":"2014",
+    "end":"____",
+    "company":"Kostivere school",
+    "position":"Robotics teacher",
+    "desc":"",
+    "tags":["Teaching","Robotics","Lego EV3","Arduino"]
+  }
+
+]

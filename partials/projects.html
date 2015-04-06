@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="page-header">
+        <h2>Selection of projects</h2>
+    </div>
+    <div class="row projectrow" >
+        <div class="col-md-6" ng-repeat="project in projects">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>{{project.name}}</h3>
+                    <h4>{{project.client}}</h4>
+                    <span class="pull-right clickable panel-collapsed"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display: none">
+                    <p>{{project.desc}}</p>
+                    <ul class="list-group">
+                        <li class="list-group-item active">Tasks in project</li>
+                        <li class="list-group-item" ng-repeat="task in project.tasks">{{task}}</li>
+                    </ul>
+
+                <span ng-repeat="tag in project.tags">
+                    <span class="label label-success">{{tag}}</span>
+                </span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

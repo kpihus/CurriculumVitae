@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="page-header">
+        <h2>Previous career</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-12" ng-repeat="item in career | orderBy: '-start' ">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><span class="glyphicon glyphicon-play"></span> {{item.start}}-{{item.end}}: {{item.company}} - {{item.position}}</h4>
+                </div>
+                <div class="panel-body">
+                    <p>{{item.desc}}</p>
+                    <p>
+                        <span ng-repeat="tag in item.tags">
+                            <span class="label label-success">{{tag}}</span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+[
+  {
+    "name":"Dupal Development",
+    "client":"TripleDev",
+    "desc":"opendata.riik.ee portal development. Project goal was to port Ckan and Drupal integration for Estonian opendata portal",
+    "tasks":["Development"],
+    "tags":["PHP","MySQL","Drupal"]
+  },
+  {
+    "name":"Restaurant e-Menu",
+    "client":"Fastwaiters OÜ",
+    "desc":"Digital menu system for Restaurants. Solution works on tablets and helps customers to make a decision and order a log easier way ",
+    "tasks":["project lead","analyst","architect","developer"],
+    "tags":["PHP","MySQL","JavaScript","jQuery","Symfony"]
+  },
+  {
+    "name":"CRM System",
+    "client":"BodyLine Gym (Nigeria)",
+    "desc":"Taylor made CRM system",
+    "tasks":["project lead","analyst","archidect","developer"],
+    "tags":["PHP","MySQL","JavaScript","jQuery","Symfony"]
+  },
+  {
+    "name":"CRM System",
+    "client":"St.Frabcios Medical Centre (Nigeria)",
+    "desc":"Taylor made CRM system",
+    "tasks":["analyst","archidect","developer"],
+    "tags":["PHP","MySQL","Symfony"]
+  },
+  {
+    "name":"Frontend interface for Erply",
+    "client":"JPG Trade OÜ",
+    "desc":"Front-end interface for customers to directly make orders from supplier stock",
+    "tasks":["architect","developer"],
+    "tags":["PHP","MySQL","jQuery","Zend","Erply"]
+  },
+  {
+    "name":"webMethods Development",
+    "client":"hidden",
+    "desc":"Development and maintenance of Software AG webMethods integrations süstem.",
+    "tasks":["BP Implementation","Developent","Support","Maintenance"],
+    "tags":["Java","webMethods","BPM"]
+
+  }
+]

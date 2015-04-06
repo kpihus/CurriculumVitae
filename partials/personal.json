@@ -1,0 +1,87 @@
+{
+  "title":{
+    "name":"Kristjan Pihus",
+    "intro":"Experienced web developer. Mostly speaks in PHP and JavaScript. Looking for new challenges."
+  },
+  "details": {
+    "Birthday": "20.03.1982",
+    "Address": "Harju county, Estonia",
+    "Martial status": "Married",
+    "Children":"4 and 11 years old",
+    "Drivers license": "Cagegory B, from 2000"
+  },
+  "education":[
+    {
+      "start":"2011",
+      "end":"2016",
+      "school":"Estonian IT College",
+      "area":"Software development"
+    },
+    {
+      "start":"1997",
+      "end":"2001",
+      "school":"Kehtna Majandus- ja Tehnoloogiakool",
+      "area":"Computers and Networks"
+    }
+  ],
+  "workshops":[
+    {
+      "time":"2014",
+      "place":"University of tartu",
+      "topic":"LEGO MINDSTORMS I for robotics teachers"
+    },
+    {
+      "time":"2014",
+      "place":"University of tartu",
+      "topic":"LEGO MINDSTORMS II for robotics teachers"
+    }
+  ],
+  "certificates":[
+    {
+      "time":"2008",
+      "place":"WatchGuard Technologies, Inc",
+      "topic":"WatchGuard Certified Systems Professional"
+    },
+    {
+      "time":"2007",
+      "place":"Estonian Defence League",
+      "topic":"Category A explosive specialist qualification"
+    },
+    {
+      "time":"2006",
+      "place":"CompTIA",
+      "topic":"Security+ certificate"
+    }
+  ],
+  "contact":[
+    {"type":"Phone","data":"+372 526 7090","icon":"earphone"},
+    {"type":"E-Mail","data":"kristjan.pihus@eesti.ee","icon":"envelope"},
+    {"type":"Skype","data":"bitt01","icon":"facetime-video"}
+  ],
+  "languages":{
+    "Estonian":[
+      {"type":"read","value":5},
+      {"type":"write","value":5},
+      {"type":"listen","value":5},
+      {"type":"speak","value":5}
+    ],
+    "English":[
+      {"type":"read","value":5},
+      {"type":"write","value":3},
+      {"type":"listen","value":4},
+      {"type":"speak","value":4}
+    ],
+    "Russian":[
+      {"type":"read","value":1},
+      {"type":"write","value":0},
+      {"type":"listen","value":1},
+      {"type":"speak","value":0}
+    ]
+  },
+  "skills":{
+    "Expert":["PHP","JavaScript","CSS","HTML","Windows"],
+    "Specialist":["Linux","Symfony","Joomla", "VBA","TCP/IP","Firewall","VPN","Hardware"],
+    "Average":["Unix","Drupal"],
+    "Novice":["Java","C","C#","Oracle","MS SQL"]
+  }
+}

@@ -1,0 +1,153 @@
+
+<div class="container">
+    <div class="page-header">
+        <h2>Personal details</h2>
+    </div>
+    <div class="row">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-xs-6 col-md-4">
+                    <img src="img/KristjanPihus.jpg" width="70%"  alt="Kristjan Pihus" />
+                </div>
+                <div class="col-xs-12 col-md-8"><h2>{{personal.title.name}}</h2>
+                    <p>{{personal.title.intro}}</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="row personalrow">
+        <div data-example-id="collapse-accordion" class="bs-example">
+            <div aria-multiselectable="true" role="tablist" id="accordion" class="panel-group">
+                <div class="panel panel-default">
+                    <div id="headingOne" role="tab" class="panel-heading">
+                        <h4 class="panel-title" id="-collapsible-group-item-#1-">
+                            <a aria-controls="collapseOne" aria-expanded="false" data-target="#collapseOne" data-parent="#accordion" data-toggle="collapse" class="collapsed">
+                                <h4>Education</h4>
+                            </a>
+                            <a href="#-collapsible-group-item-#1-" class="anchorjs-link"><span class="anchorjs-icon"></span></a></h4>
+                    </div>
+                    <div aria-labelledby="headingOne" role="tabpanel" class="panel-collapse collapse" id="collapseOne" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body">
+                            <table class="table table-hover">
+                                <tr ng-repeat="school in personal.education">
+                                    <td>{{school.start}} - {{school.end}}</td>
+                                    <td>{{school.area}}</td>
+                                    <td>{{school.school}}</td>
+                                </tr>
+                            </table>
+                            <h1><small>Workshops</small></h1>
+                            <table class="table table-hover">
+                                <tr ng-repeat="ws in personal.workshops">
+                                    <td>{{ws.time}}</td>
+                                    <td>{{ws.topic}}</td>
+                                    <td>{{ws.place}}</td>
+                                </tr>
+                            </table>
+                            <h1><small>Certificates</small></h1>
+                            <table class="table table-hover">
+                                <tr ng-repeat="cert in personal.certificates">
+                                    <td>{{cert.time}}</td>
+                                    <td>{{cert.topic}}</td>
+                                    <td>{{cert.place}}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div id="headingTwo" role="tab" class="panel-heading">
+                        <h4 class="panel-title" id="-collapsible-group-item-#2-">
+                            <a aria-controls="collapseTwo" aria-expanded="false" data-target="#collapseTwo" data-parent="#accordion" data-toggle="collapse" class="collapsed">
+                                <h4>Personal</h4>
+                            </a>
+                            <a href="#-collapsible-group-item-#2-" class="anchorjs-link"><span class="anchorjs-icon"></span></a></h4>
+                    </div>
+                    <div aria-labelledby="headingTwo" role="tabpanel" class="panel-collapse collapse" id="collapseTwo" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h5>Details</h5>
+                                        </div>
+                                        <div class="panel-body">
+                                            <table class="table table-hover">
+                                                <tr ng-repeat="(key,value) in personal.details">
+                                                    <td>{{key}}</td><td>{{value}}</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h5>Languages</h5>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="list-group">
+                                                <div class="list-group-item" ng-repeat="(key, data) in personal.languages">
+                                                    <span style="white-space: nowrap" class="fixed-span">{{key}}
+                                                    <span ng-repeat="item in data">
+                                                        &nbsp;<span class="label label-success">{{item.type}}<span class="badge">{{item.value}}</span></span>
+                                                    </span>
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h5>Computer skills</h5>
+
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="list-group">
+                                                <div class="list-group-item" ng-repeat="(key, value) in personal.skills | orderBy: key">
+                                                    <span class="fixed-span">{{key}}</span>
+                                                    <span ng-repeat="item in value">&nbsp;<span class="label label-success">{{item}}</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div id="headingThree" role="tab" class="panel-heading">
+                        <h4 class="panel-title" id="-collapsible-group-item-#3-">
+                            <a aria-controls="collapseThree" aria-expanded="false" data-target="#collapseThree" data-parent="#accordion" data-toggle="collapse" class="collapsed">
+                                <h4>Contact</h4>
+                            </a>
+                            <a href="#-collapsible-group-item-#3-" class="anchorjs-link"><span class="anchorjs-icon"></span></a></h4>
+                    </div>
+                    <div aria-labelledby="headingThree" role="tabpanel" class="panel-collapse collapse" id="collapseThree" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-4" ng-repeat="contact in personal.contact">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            {{contact.type}}
+                                        </div>
+                                        <div class="panel-body">
+                                            <span class="glyphicon glyphicon-{{contact.icon}}"></span>{{contact.data}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
